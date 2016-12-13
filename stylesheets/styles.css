@@ -90,7 +90,7 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#39c;
+  color:#89d7ff;
   text-decoration:none;
 }
 
@@ -269,6 +269,7 @@ footer {
   display: block;
 }
 .applinks a {
+  font-size: 12px;
   color: #89d7ff;
 }
 
@@ -296,7 +297,7 @@ footer {
 .aboutguangguang ul li a {
   display: inline;
   font-size: 14px;
-  color: #39c;
+  color: #89d7ff;
   margin-bottom: 0px;
 }
 
