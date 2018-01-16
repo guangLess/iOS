@@ -78,15 +78,25 @@ h1, h2, h3 {
 h1 {
   font-size:32px;
   font-weight: 100;
-  margin-bottom: 8px;
+  margin-bottom: 30px;
 }
 
 h2 {
-  color:#393939;
+  color:#555353;
+  font-weight: 200;
+  clear: both;
+  padding-top: 40px;
+}
+h2:first-child {
+  padding-top: 0;
 }
 
 h3, h4, h5, h6 {
   color:#494949;
+}
+h3 {
+  font-size: 15px;
+  font-weight: normal;
 }
 
 a {
@@ -237,7 +247,7 @@ small {
 
 hr {
   border:0;
-  background:#e5e5e5;
+  background: #89d7ff;
   height:1px;
   margin:0 0 20px;
 }
@@ -274,7 +284,7 @@ footer {
 }
 
 .aboutguangguang {
-
+  margin-top: 30px;
 }
 
 .aboutguangguang ul {
@@ -290,15 +300,15 @@ footer {
   float: none;
   text-align: left;
   font-size: 14px;
-  margin-bottom: 3px;
+  margin-bottom: 5px;
   width: auto;
-  height: auto;
+  height: auto; 
 }
 .aboutguangguang ul li a {
   display: inline;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: 330;
   color: #89d7ff;
-  margin-bottom: 0px;
 }
 
 @media print, screen and (max-width: 960px) {
@@ -306,6 +316,10 @@ footer {
   div.wrapper {
     width:auto;
     margin:0;
+  }
+
+  h2:first-child {
+    padding-top: 40px;
   }
 
   header, section, footer {
@@ -319,7 +333,6 @@ footer {
   }
 
   section {
-    border:1px solid #e5e5e5;
     border-width:1px 0;
     padding:20px 0;
     margin:0 0 20px;
